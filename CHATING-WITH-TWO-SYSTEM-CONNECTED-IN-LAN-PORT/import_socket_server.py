@@ -14,7 +14,7 @@ def receive_messages(client_socket):
 
 def start_client():
     """Connects to the server and allows bidirectional communication."""
-    server_ip = '192.168.17.113'  # Replace with the actual server IP
+    server_ip = '192.168.17.1'  # Replace with the actual server IP
     server_port = 12345
 
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
